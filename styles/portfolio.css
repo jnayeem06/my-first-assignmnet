@@ -222,12 +222,88 @@ height: 647px;
    color: #001931;
    margin: 16px;
 }
-.info-card p{ 
+.info-card p { 
   font-size: 16px;
   line-height: 20px;
 
 }
 
+ #banner { 
+    margin: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse; /* <-- এটা ছবিটাকে বাম এবং লেখাকে ডান করবে */
+}
+  
+ #banner .banner-content .MEW p {
+  color: #30B868;  
+ }
+
+ .tick-list {
+  list-style: none; /* default bullet remove */
+  padding: 0;
+  margin: 0;
+}
+
+.tick-list li {
+  position: relative;        
+  margin-bottom: 15px;       
+  padding-left: 35px;        
+  font-size: 16px;
+}
+
+ 
+ .tick-list {
+  list-style: none; /* default bullet remove */
+  padding: 0;
+  margin: 0;
+}
+
+.tick-list li {
+  position: relative;        
+  margin-bottom: 15px;     
+  padding-left: 35px;        
+  font-size: 16px;
+}
+
+ 
+ .tick-list {
+  list-style: none;  /
+  padding: 0;
+  margin: 0;
+}
+
+.tick-list li {
+  position: relative;        
+  margin-bottom: 15px;        
+  padding-left: 35px;        
+  font-size: 16px;
+}
+
+  
+.tick-list li::before {
+  content: "✔";             
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;           
+  background-color: #22c55e;   
+  color: #fff;                
+  text-align: center;
+  line-height: 22px;           
+  font-weight: bold;
+}
 
 
 
+
+
+
+
+
+
+   
