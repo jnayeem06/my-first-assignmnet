@@ -5,7 +5,7 @@
 }
 
 /* body {
- background colour
+ background color
 } */
 
 
@@ -158,17 +158,76 @@ height: 647px;
   
 }
 
-/* Cow text */
+
 .cow-text {
   color: #FFFFFF;
   font-size: 50px;
   font-weight: bold;
 }
 
-/* Dog text */
+
 .dog-text {
   color: #30B868;
   font-size: 50px;
   font-weight: bold;
 }
+
+ #about {
+  padding-top: 36px;
+}
+
+#about .about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px 40px;
+}
+.about-info{
+  display: flex;
+  margin-top: 44px;
+  gap: 120px;
+  padding: 24px;
+  box-shadow: 0 0 8px #000000e1;
+
+}
+.section-heading h1 {
+  margin-bottom: 16px; 
+}
+ 
+.
+.info-card img { 
+  
+  padding: 16px;
+  gap: 120px;
+  
+  max-width: 196px;
+  
+    
+  
+  
+}
+.img-div {
+ background-color: orangered;
+ height: 60px;
+ width: 60px;
+ margin:0 auto;
+ border-radius: 100%;
+  
+}
+
+
+.info-card h3 {
+  font-size: 24px;
+   color: #001931;
+   margin: 16px;
+}
+.info-card p{ 
+  font-size: 16px;
+  line-height: 20px;
+
+}
+
+
+
 
